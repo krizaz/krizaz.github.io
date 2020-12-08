@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+/*
+body{}
+*/
+
+body {
+    background-color: #191919;
+}
+
+
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    transition: .5s linear;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.button {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    color: goldenrod;
+}
+
+#main {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#vikno {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    color: goldenrod;
+    background: #191919;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#main:target {
+    display: block;
+}
+
+
+
+.menu {
+
+    padding: 1px;
+    grid-template-columns: repeat(5, 2fr);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: goldenrod
+}
+
+
+}
+
+.menu a {
+
+
+    width: 260px;
+    border-right: 1px solid goldenrod;
+    border-bottom: 3px solid black;
+    color: goldenrod;
+
+
+
+}
+
+.menu a:hover {
+    background: goldenrod;
+
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li {
+    float: left;
+    position: static;
+    height: 10px;
+    width: 260px;
+    margin: 0;
+}
+
+ul.menu li a {
+    display: block;
+    position: relative;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.menu li:hover a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+.menu active {
+    background: goldenrod;
+}
+
+.selection {
+    margin: 100px 100px 10px 0;
+    width: 100%;
+    min-height: 30px;
+    padding: 30px;
+
+}
+
+.selection:hover {}
+
+.center {
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.myphoto {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#home {
+    background-color: black;
+    width: 100%;
+}
+
+#about {
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#skills {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#works {
+    background-color: goldenrod;
+    width: 100%;
+
+}
+
+#contacts {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+hr {
+    border-color: goldenrod;
+}
+
+h1 {
+
+    color: black;
+    font-size: 32px;
+    margin: 0px 0 10px 0;
+    background: goldenrod;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+
+h2 {
+    color: #d58300;
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    font-style: normal;
+}
+
+h3 {
+    color: goldenrod;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    margin: 0 20px 0 20px;
+    text-align: left;
+    font-style: normal;
+    list-style-type: circle;
+
+}
+
+h4 {
+    color: goldenrod;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    font-style: normal;
+}
+
+h5 {
+    color: goldenrod;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.italic {
+    font-style: italic;
+    color: goldenrod;
+}
+
+.bigger {
+    font-size: 22px;
+    color: #d58300;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.interactive {
+    background: black;
+    padding: 0px;
+    border: 8px solid #191919;
+    width: auto;
+    text-decoration: none;
+    display: block;
+    color: goldenrod;
+
+}
+
+.interactive:hover {
+    border-color: goldenrod;
+    background-color: #191919;
+}
+
+p strong {
+    text-decoration: underline;
+
+}
+
+p .bigger {
+    font-size: 23px;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.gallery2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.gallery3 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.gallery4 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.gallery5 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.gallery6 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
