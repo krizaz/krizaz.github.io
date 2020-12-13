@@ -9,19 +9,48 @@
 
 
     <link rel="stylesheet" href="style.css">
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="baguette.js"></script>
+    <script>
+        jQuery(function($) {
+            baguetteBox.run('.gallery', {
+                animation: 'slideIn',
+            });
+        });
+        jQuery(function($) {
+            baguetteBox.run('.gallery3', {
+                animation: 'slideIn',
+            });
+        });
+        jQuery(function($) {
+            baguetteBox.run('.gallery4', {
+                animation: 'slideIn',
+            });
+        });
+        jQuery(function($) {
+            baguetteBox.run('.gallery5', {
+                animation: 'slideIn',
+            });
+        });
+
+    </script>
+    
+    
 </head>
 
 <body>
 
     <nav>
         <ul class="menu">
-            <h5>
+          
                 <li><a href="#home">Головна</a></li>
                 <li><a href="#about">Про мене</a></li>
                 <li><a href="#skills">Вмiння</a></li>
                 <li><a href="#works">Роботи</a></li>
                 <li><a href="#contacts">Контакти</a></li>
-            </h5>
+           
         </ul>
     </nav>
 
@@ -32,12 +61,18 @@
         <h1 class="center">Гогіль Христина</h1>
         <h4>Займаюсь всім підряд і нічим водночас</h4>
         <hr>
+        <p></p>
+        <hr>
+        <p></p>
+       
 
         <h3>Привіт усім, хто якимось чином потрапив на цю сторіночку, я Христя, звичайна дівчинка 21го століття, яка старається зліпити зі свого «Богом даного» життя щось дійсно вартісне і прекрасне. Тому без понтів і ідеаліації розкажу вам трішки про себе. Ну а поки подивіться на мене різну)).</h3>
 
+
+
         <div class="gallery2">
 
-            <p><img src="pic/ду.jpg" width="280" height="350"></p>
+            <p><img src="pic/ду.jpg" width="280" height="350" ></p>
             <p><img src="pic/ро.jpg" width="280 " height="350"></p>
             <p><img src="pic/ч.jpg" width="280 " height="350"></p>
             <p><img src="pic/ка.jpg" width="280 " height="350"></p>
@@ -45,6 +80,7 @@
         </div>
 
     </div>
+     <hr>
 
 
     <div class="selection" id="about">
@@ -77,38 +113,38 @@
             </ul>
         </h3>
     </div>
-    <hr>
+    
     <div class="selection" id="works">
 
         <div class="gallery">
 
-            <p><img src="pic/work1.jpg" width="350" height="350"></p>
-            <p><img src="pic/work.jpg" width="350" height="350"></p>
-            <p><img src="pic/work2.jpg" width="350" height="350"></p>
+            <p><a href="pic/work1.jpg" width="1050" height="1050"><img src="pic/work1.jpg" width="350" height="350"></a></p>
+            <p><a href="pic/work.jpg" width="1050" height="1050"><img src="pic/work.jpg" width="350" height="350"></a></p>
+            <p><a href="pic/work2.jpg" width="1050" height="1050"><img src="pic/work2.jpg" width="350" height="350"></a></p>
 
         </div>
 
 
         <div class="gallery3">
 
-            <p><img src="pic/photo5.jpg" width="400" height="250"></p>
-            <p><img src="pic/photo6.jpg" width="400" height="250"></p>
-            <p><img src="pic/photo7.jpg" width="400" height="250"></p>
+            <p><a href="pic/photo5.jpg" width="1200" height="750"><img src="pic/photo5.jpg" width="400" height="250"></a></p>
+            <p><a href="pic/photo6.jpg" width="1200" height="750"><img src="pic/photo6.jpg" width="400" height="250"></a></p>
+            <p><a href="pic/photo7.jpg" width="1200" height="750"><img src="pic/photo7.jpg" width="400" height="250"></a></p>
 
         </div>
 
         <div class="gallery4">
-            <p><img src="pic/photo3.jpg" width="400" height="250"></p>
-            <p><img src="pic/photo2.jpg" width="400" height="250"></p>
-            <p><img src="pic/photo1.jpg" width="400" height="250"></p>
+            <p><a href="pic/photo3.jpg" width="1200" height="750"><img src="pic/photo3.jpg" width="400" height="250"></a></p>
+            <p><a href="pic/photo2.jpg" width="1200" height="750"><img src="pic/photo2.jpg" width="400" height="250"></a></p>
+            <p><a href="pic/photo1.jpg" width="1200" height="750"><img src="pic/photo1.jpg" width="400" height="250"></a></p>
 
         </div>
 
         <div class="gallery5">
 
-            <p><img src="pic/photo4.jpg" width="280" height="400"></p>
-            <p><img src="pic/відкритка.jpg" width="280" height="400"></p>
-            <p><img src="pic/плакат.jpg" width="280" height="400"></p>
+            <p><a href="pic/photo4.jpg" width="840" height="1200"><img src="pic/photo4.jpg" width="280" height="400"></a></p>
+            <p><a href="pic/відкритка.jpg" width="840" height="1200"><img src="pic/відкритка.jpg" width="280" height="400"></a></p>
+            <p><a href="pic/плакат.jpg" width="840" height="1200"><img src="pic/плакат.jpg" width="280" height="400"></a></p>
 
         </div>
 
@@ -117,37 +153,43 @@
 
     <div class="selection" id="contacts">
 
-        <h3>
-            <p>I ось мiй <em class="italic">Instagram</em> в разі чого
-
-                <a href="https://www.instagram.com/kristen.w._/" class="interactive">
-                    kristen.w._
+        <h4>
+           Ну i тримайте мої контакти на всякий
+        </h4>
+           <h2>
+            <p><a href="https://www.instagram.com/kristen.w._/" class="interactive">
+                    Instagram
                 </a>
 
             </p>
-             пошта 
-            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDXmckzLgcXqqdNccTCGsPvbKpPxFhDBzZdZBXgKWvBTvzwmQsvxqtnCGFDXhSzWWqXtwQd" class="interactive">
-        
-           khrystynagogil@gmail.com </a>
-        </h3>
+            <p><a href="https://www.behance.net/khrystynagbefb" class="interactive">
+                   Behance
+                </a>
+            </p>
+                <p><a href="https://www.facebook.com/KristinaHohil/" class="interactive">
+                   Facebook
+                </a>
+            </p>
+            
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDXmckzLgcXqqdNccTCGsPvbKpPxFhDBzZdZBXgKWvBTvzwmQsvxqtnCGFDXhSzWWqXtwQd" class="interactive" >
 
-        <img src="https://media.giphy.com/media/3ohzAgwi9rk7GdJ0pa/giphy.gif">
+                Gmail </a>
+        </h2>
 
-
+       
     </div>
 
     <a href="#" id="main">
         <div id="vikno">
-           Дякую за те, що приділили час мені і моїй історії, цьомаю в плечі і до встречі.<img src="https://media.giphy.com/media/lTQF0ODLLjhza/giphy.gif">
+            Дякую за те, що приділили час мені і моїй історії, цьомаю в плечі і до встречі.<img src="https://media.giphy.com/media/lTQF0ODLLjhza/giphy.gif" >
         </div>
     </a>
-    
-    
 
-    <a href="#main">Тут щось важливе</a>
+
+
+    <a href="#main" style="color: goldenrod">Тут щось важливе</a>
 
 </body>
-<div style="height:3000px"></div>
-   <a href="#" title="Вернуться к началу страницы" class="button">Вверх</a>
+<a href="#" class="button">Вверх</a>
 
 </html>
